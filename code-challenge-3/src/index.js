@@ -79,6 +79,8 @@ function fetchFilmData() {
                      filmItem.appendChild(deleteButton);
                         movieTitles.appendChild(filmItem);
                   
+
+                // Add click event to show film details
                         filmItem.addEventListener('click', () => {
                             alert(`Details for ${film.title}: ${film.description}`); // Show film details in an alert
                         });  
